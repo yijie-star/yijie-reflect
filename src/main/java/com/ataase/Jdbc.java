@@ -37,61 +37,14 @@ public class Jdbc {
         System.out.print("请输入密码：");
         String password = scanner.next();
 
-        if (login.login(username, password) == true){
+        if (login.login(username, password) == true) {
             System.out.println("\n登录成功");
-        }else {
+        } else {
             System.out.println("\n用户名或密码错误！");
         }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-    /*
-    @Test
-    public void testJdbc() {
-        // 初始化数据
-//        JdbcUtils.initData();
-        try {
-            // 1、创建DataSource实例
-            DataSource dataSource = new UnpooledDataSource("org.hsqldb.jdbcDriver",
-                    "jdbc:hsqldb:mem:mybatis", "sa", "");
-            ///2、获取Connection对象
-            Connection connection = dataSource.getConnection();
-            Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery("select * from user");
-            ///3、遍历ResultSet
-            ResultSetMetaData metaData = resultSet.getMetaData();
-            int columCount = metaData.getColumnCount();
-            while (resultSet.next()) {
-                for (int i = 1; i <= columCount; i++) {
-                    String columName = metaData.getColumnName(i);
-                    String columVal = resultSet.getString(columName);
-                    System.out.println(columName + ":" + columVal);
-                }
-                System.out.println("---------------------------------------");
-            }
-            ///4、关闭连接
-            IOUtils.closeQuietly(statement);
-            IOUtils.closeQuietly(connection);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-     */
 }
 class login {
     /*
@@ -120,6 +73,7 @@ class login {
 
          */
         Connection connection = null;
+        connection = JdbcUtils.getConnection();
         String sql = "select * from t_user where username = ? and password = ? ";
         PreparedStatement preparedStatement = connection.prepareStatement(sql);
         preparedStatement.setString(1,username);

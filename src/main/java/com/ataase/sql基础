@@ -24,3 +24,8 @@ PreparedStatement:
     防止：
     提高代码的可读、可维护性：
     提高效率
+
+取消全局代理：
+git config --global --unset http.proxy
+
+git config --global --unset https.proxy
