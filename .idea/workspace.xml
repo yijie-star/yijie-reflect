@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b022a78-9db9-4137-8426-74190da4f845" name="变更" comment="6-23-2">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/prop/dbconfig.properties" afterDir="false" />
+    <list default="true" id="1b022a78-9db9-4137-8426-74190da4f845" name="变更" comment="yijie-git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/com/ase/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ataase/Jdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ataase/Jdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ataase/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ataase/JdbcUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ataase/sql基础" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ataase/sql基础" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/avaweb/JaxpParser_sax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avaweb/JaxpParser_sax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/DataBaseConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/conf/DataBaseConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yijie-reflect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yijie-reflect.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +144,7 @@
       <workItem from="1655945753415" duration="3889000" />
       <workItem from="1655950323943" duration="2780000" />
       <workItem from="1655953159180" duration="3289000" />
-      <workItem from="1655956531249" duration="5344000" />
+      <workItem from="1655956531249" duration="5949000" />
     </task>
     <task id="LOCAL-00001" summary="2022/6/23">
       <created>1655952050369</created>
@@ -216,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655956686046</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="yijie-git">
+      <created>1655962109808</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655962109809</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +264,8 @@
     <MESSAGE value="2022/6/23" />
     <MESSAGE value="6-23-1" />
     <MESSAGE value="6-23-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="6-23-2" />
+    <MESSAGE value="yijie-git" />
+    <option name="LAST_COMMIT_MESSAGE" value="yijie-git" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
