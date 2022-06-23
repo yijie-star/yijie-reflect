@@ -1,0 +1,8 @@
+java属于编译型解释型语言
+
+public class ac_and_ife_at_1 {
+    public static void main(String[] args) {
+        IClassName ica = new Company();
+        System.out.println(ica.getClassName());
+    }
+}
