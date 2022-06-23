@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b022a78-9db9-4137-8426-74190da4f845" name="变更" comment="yijie-git">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_ajax/ajax入门" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_xml/Dom4jParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_xml/Dom4jUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_xml/Sms_service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_xml/StuFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_xml/StuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_xml/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_xml/dom4j" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_xml/textMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/pupil.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/extjar/dom4j-2.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/extjar/jaxen-1.2.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ataase/sql基础" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ataase/sql基础" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avaweb/JaxpParser_dom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_xml/JaxpParser_dom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avaweb/JaxpParser_sax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_xml/JaxpParser_sax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/DataBaseConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/conf/DataBaseConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yijie-reflect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yijie-reflect.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="xml" />
+        <option value="Xml File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,7 +75,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Users/yijie/Java Project/yijie-reflect/src/main/resources/extjar/mysql-connector-java-8.0.29.jar",
+    "last_opened_file_path": "D:/Users/yijie/Java Project/yijie-reflect/src/main/resources/extjar/jaxen-1.2.0.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,7 +83,7 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "fileTemplates"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -75,11 +94,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\yijie\Java Project\yijie-reflect\src\main\resources\extjar" />
       <recent name="D:\Users\yijie\Java Project\yijie-reflect\src\main\java\com\avaweb" />
       <recent name="D:\Users\yijie\Java Project\yijie-reflect\src\main\java\com\ataase" />
       <recent name="D:\Users\yijie\Java Project\yijie-reflect\src\main\resources\conf" />
       <recent name="D:\Users\yijie\Java Project\yijie-reflect\src\main\java\com\ase" />
-      <recent name="D:\Users\yijie\Java Project\yijie-reflect\src\main\resources\extjar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\yijie\Java Project\yijie-reflect\src\main\java\com" />
@@ -90,13 +109,26 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.JaxpParser_sax">
-    <configuration name="JaxpParser_sax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.avaweb.JaxpParser_sax" />
+  <component name="RunManager" selected="应用程序.com.avaweb_xml.textMain">
+    <configuration name="Dom4jParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.avaweb_xml.Dom4jParser" />
       <module name="yijie-reflect" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.avaweb.*" />
+          <option name="PATTERN" value="com.avaweb_xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JaxpParser_sax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.avaweb_xml.JaxpParser_sax" />
+      <module name="yijie-reflect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.avaweb_xml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,16 +149,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.ase.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ase.Main" />
+    <configuration name="teatMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.avaweb.teatMain" />
       <module name="yijie-reflect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.avaweb_xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="textMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.avaweb_xml.textMain" />
+      <module name="yijie-reflect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.avaweb_xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.JaxpParser_sax" />
+        <item itemvalue="应用程序.com.avaweb_xml.textMain" />
+        <item itemvalue="应用程序.com.avaweb.teatMain" />
+        <item itemvalue="应用程序.com.avaweb_xml.Dom4jParser" />
+        <item itemvalue="应用程序.com.avaweb_xml.JaxpParser_sax" />
         <item itemvalue="应用程序.Jdbc" />
       </list>
     </recent_temporary>
@@ -144,7 +198,7 @@
       <workItem from="1655945753415" duration="3889000" />
       <workItem from="1655950323943" duration="2780000" />
       <workItem from="1655953159180" duration="3289000" />
-      <workItem from="1655956531249" duration="5949000" />
+      <workItem from="1655956531249" duration="29044000" />
     </task>
     <task id="LOCAL-00001" summary="2022/6/23">
       <created>1655952050369</created>
@@ -216,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655962109809</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="yijie-git">
+      <created>1655962544707</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655962544707</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

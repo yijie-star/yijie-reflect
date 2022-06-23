@@ -5,7 +5,7 @@
  * Author: yijie
  */
 
-package com.avaweb;
+package com.avaweb_xml;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

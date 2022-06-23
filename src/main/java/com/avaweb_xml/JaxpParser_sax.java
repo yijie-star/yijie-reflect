@@ -1,4 +1,4 @@
-package com.avaweb;
+package com.avaweb_xml;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;

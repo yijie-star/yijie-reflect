@@ -1,8 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <!-- 配置输入源 -->
-<bean id="dataSource" class="alistdy/mysql-connector-java-8.0.29.jar">
-    <!-- 连接数据库的必备信息 -->
-    <property name="driverClassName" value="com.mysql.jdbc.Driver">com.mysql.jdbc.Driver</property>
-    <property name="jdbcUrl" value="jdbc:mysql://127.0.0.1:3306/yijie?characterEncoding=utf8&amp;useSSL=false">jdbc:mysql://127.0.0.1:3306/yijie</property>
-    <property name="userName" value="root">root</property>
-    <property name="password" value="yijie">yijie</property>
+<bean id="dataSource" class="alistdy/mysql-connector-java-8.0.29.jar"> 
+  <!-- 连接数据库的必备信息 -->  
+  <property> 
+    <name>qinyi</name>  
+    <tell>17854265324</tell>
+    <age>20</age> 
+  </property>  
+  <property name="driverClassName" value="com.mysql.jdbc.Driver">com.mysql.jdbc.Driver</property>  
+  <property name="jdbcUrl" value="jdbc:mysql://127.0.0.1:3306/yijie?characterEncoding=utf8&amp;useSSL=false">jdbc:mysql://127.0.0.1:3306/yijie</property>  
+  <property name="userName" value="root">root</property>  
+  <property name="password" value="yijie">yijie</property> 
 </bean>
