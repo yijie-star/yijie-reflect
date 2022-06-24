@@ -61,3 +61,64 @@
             403: "Forbidden"
             404: "Not Found"
         statusText	                返回状态文本（比如 "OK" 或 "Not Found"）
+
+3、发送异步请求
+
+   3.1 得到XMLHttpRequest（只需要学习一个对象XMLHttpRequest）：
+        大多数浏览器都支持：var xmlHttp = new XMLHttpRequest();
+   编写创建XMLHttpRequest对象的函数：
+        function creatXMLHttpRequest(){
+            try{
+                return new XMLHttpRequest();
+            }catch(e){
+                try{
+                    return new ActiveXObject("Msxml2.XMLHTTP");//IE6.0
+                }catch(e){
+                    try{
+                        return new ActiveXObject("Microsoft.XMLHTTP");//IE5.5更早
+                    }catch(e){
+                        alert("你用的是什么浏览器！")
+                        throw e;
+                    }
+                }
+            }
+        }
+    3.2 打开与服务器的连接
+    xmlHttp.open(): 用来打开与服务器的连接，需要三个参数
+        请求方式：可以使get或post
+        请求的URL：指定的服务器资源
+        请求是否为异步：true--发送异步请求 否则同步
+            xmlHttp.open("GET","服务器路径",true);
+
+
+    3.3 发送请求
+        xmlHttp.send(null): 如果不给可能会造成部分浏览器无法发送
+            参数就是请求内容！如果是GET，必须给出null
+
+    3.4
+        xmlHttp对象的一个事件上注册一个监听器：onreadystatechange
+            xmlHttp的5个状态：
+                        0：请求未初始化
+                        1：服务器连接已建立
+                        2：请求已收到
+                        3：正在处理请求
+                        4：请求已完成且响应已就绪
+
+            得到xmlHttp状态：
+                var state = xmlHttp.readyState;
+            得到服务器响应的状态码：
+                var status = xmlHttp.status;
+            得到服务器响应的内容：
+                xmlHttp.responseText	            以字符串返回响应数据
+                xmlHttp.responseXML	                以 XML 数据返回响应数据
+
+        xmlHttp.onreadystatechange = function () {
+            if(xmlHttp.readyState == 4 && xmlHttp.status == 200){//双重判断是否为4，是否为200
+                //获取服务器响应内容
+                var text = xmlHttp.responseText	;
+            }
+        };
+
+        src/main/java/com/avaweb_ajax/avawed_ajaxtest/index.html
+
+        src/main/java/com/avaweb_ajax/AServlet.java

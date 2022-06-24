@@ -1,0 +1,35 @@
+常见的数据库：
+    Oracle：
+    MySQL：
+
+什么是SQL：结构化插叙语言，客户端使用SQL操作服务器
+SQL语法：
+    可以单行或多行书写，以分号结尾；
+    可使用空格和缩进增强语句的可读性；
+    MySQL不区分大小写，建议使用大写。
+
+ddl：数据可或表的结构操作
+dml：对表的记录进行更新
+dql：对表的记录的查询
+dcl：对用户的创建及授权
+
+关系：
+    一对一：从表主键作为外键（非空，唯一，引用从表），数据插入先从后主
+    一对多：
+    多对多：中间表
+
+PreparedStatement:
+    什么的SQL攻击：
+    演示：
+    防止：
+    提高代码的可读、可维护性：
+    提高效率
+
+#设置代理（注意一定要看你代理的端口）
+git config --global http.proxy "127.0.0.1:1080"
+git config --global https.proxy "127.0.0.1:1080"
+
+#取消代理（取消后可以试一试，如果不需要代理也可以成功就可以不需要代理）
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
