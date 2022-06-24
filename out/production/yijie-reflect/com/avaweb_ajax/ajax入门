@@ -77,7 +77,7 @@
                     try{
                         return new ActiveXObject("Microsoft.XMLHTTP");//IE5.5更早
                     }catch(e){
-                        alert("你用的是什么浏览器！")
+                        alert("你用的是什么浏览器！");
                         throw e;
                     }
                 }
@@ -118,3 +118,8 @@
                 var text = xmlHttp.responseText	;
             }
         };
+        java.atweb.servlet
+
+        src/main/java/com/avaweb_ajax/avawed_ajaxtest/index.html
+
+        src/main/java/com/avaweb_ajax/AServlet.java

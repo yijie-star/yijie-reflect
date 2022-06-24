@@ -77,7 +77,7 @@
                     try{
                         return new ActiveXObject("Microsoft.XMLHTTP");//IE5.5更早
                     }catch(e){
-                        alert("你用的是什么浏览器！")
+                        alert("你用的是什么浏览器！");
                         throw e;
                     }
                 }
@@ -118,7 +118,23 @@
                 var text = xmlHttp.responseText	;
             }
         };
+        java.atweb.servlet
 
         src/main/java/com/avaweb_ajax/avawed_ajaxtest/index.html
 
         src/main/java/com/avaweb_ajax/AServlet.java
+
+发送POST请求：
+    open: xmlHttp.open("POST" ....);
+    添加一步：设置ContentType请求头
+        xmlHttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+    send:
+        xmlHttp.send("username=zhangsang&password=123");
+
+注册表单之校验用户是否注册
+
+响应内容为xml数据
+    响应头：ContentType--值为：text/xml;charset=utf-8
+    客户端：
+        var doc = xmlHttp.responseXML;
+

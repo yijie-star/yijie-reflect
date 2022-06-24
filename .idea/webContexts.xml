@@ -3,7 +3,11 @@
   <component name="WebContextManager">
     <option name="state">
       <map>
+        <entry key="file://$PROJECT_DIR$/aTweb/web/WEB-INF/index.jsp" value="file://$PROJECT_DIR$/aTweb/web/WEB-INF" />
         <entry key="file://$PROJECT_DIR$/aTweb/web/ajax.jsp" value="file://$PROJECT_DIR$/aTweb/web" />
+        <entry key="file://$PROJECT_DIR$/aTweb/web/index.jsp" value="file://$PROJECT_DIR$/aTweb/web" />
+        <entry key="file://$PROJECT_DIR$/awebt/web/ajax.jsp" value="file://$PROJECT_DIR$/awebt/web" />
+        <entry key="file://$PROJECT_DIR$/awebt/web/ajaxo.jsp" value="file://$PROJECT_DIR$/awebt/web" />
       </map>
     </option>
   </component>

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="awebt">
+    <output-path>$PROJECT_DIR$/out/artifacts/awebt</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="awebt/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="awebt" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
