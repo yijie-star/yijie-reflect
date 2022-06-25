@@ -123,3 +123,27 @@
         src/main/java/com/avaweb_ajax/avawed_ajaxtest/index.html
 
         src/main/java/com/avaweb_ajax/AServlet.java
+
+发送POST请求：
+    open: xmlHttp.open("POST" ....);
+    添加一步：设置ContentType请求头
+        xmlHttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+    send:
+        xmlHttp.send("username=zhangsang&password=123");
+
+注册表单之校验用户是否注册
+
+响应内容为xml数据
+    响应头：ContentType--值为：text/xml;charset=utf-8
+    客户端：
+        var doc = xmlHttp.responseXML;
+省市联动：
+    页面：<select name="province">
+               <option>===请选择省份===</option>
+           </select>
+           <select name="city">
+               <option>===请选择城市===</option>
+           </select>
+    提供两个Servlet
+        ProvinceServlet
+        CityServlet

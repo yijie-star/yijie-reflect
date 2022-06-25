@@ -137,4 +137,32 @@
     响应头：ContentType--值为：text/xml;charset=utf-8
     客户端：
         var doc = xmlHttp.responseXML;
+省市联动：
+    页面：<select name="province">
+               <option>===请选择省份===</option>
+           </select>
+           <select name="city">
+               <option>===请选择城市===</option>
+           </select>
+    提供两个Servlet
+        ProvinceServlet
+        CityServlet
+xstream:
+    可以把javabean转换为（序列化）xml  一款很快的xml解析器
 
+
+json:
+    js提供的一种数据交换工具
+    语法：
+        {}--对象
+        属性名必须使用双引号括起来
+        属性值：
+            null
+            数值
+            字符串
+            数组：使用[]
+            boolean:true--false
+json-lib
+    把javabean转换成json串
+
+打包ajax

@@ -1,0 +1,31 @@
+1、是javaweb的三大组件之一
+    接收请求数据，处理请求，完成响应
+2、实现方式：
+    实现javax.servlet.Servlet接口
+    继承javax.servlet.GenericServlet类
+    继承javax.servlet.http.HttpServlet类
+3、如何让浏览器访问Servlet
+    3.1 给Servlet指定一个Servlet路径！（让Servlet与路径绑定在一起）
+    3.2 浏览器访问Servlet路径
+        web.xml中对Servlet配置：
+4、ServletConfig
+    一个ServletConfig对象，对应一段web.xml信息
+    String getServletName() 获取<servlet-name>的内容
+5、Servlet细节
+    5.1
+        不要在Servlet中创建成员，创建局部变量即可
+        可以创建无状态成员
+        可以创建有状态的成员，但状态必须为只读
+
+    5.2 让服务器在启动时创建Servlet
+
+6、ServletContext
+    一个项目只有一个ServletContext对象
+
+    获取：
+
+7、访问量的统计：
+
+8、获取类路径下载资源：对Javaweb项目来言--就是/WEB-INF/classes和/WEB-INF/lib每个jar包
+    Class:
+    ClassLoader：
