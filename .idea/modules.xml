@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/awebt/awebt.iml" filepath="$PROJECT_DIR$/awebt/awebt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lmspro/lmspro.iml" filepath="$PROJECT_DIR$/lmspro/lmspro.iml" />
       <module fileurl="file://$PROJECT_DIR$/yijie-reflect.iml" filepath="$PROJECT_DIR$/yijie-reflect.iml" />
     </modules>
   </component>
