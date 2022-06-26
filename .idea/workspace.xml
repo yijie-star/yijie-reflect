@@ -9,141 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b022a78-9db9-4137-8426-74190da4f845" name="变更" comment="yijie-git">
-      <change afterPath="$PROJECT_DIR$/awebt/src/china.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/src/cn/java/web/servlet/BServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/src/cn/java/web/servlet/CityServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/src/cn/java/web/servlet/ProvinceServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/src/conf/sql-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/FilelLoad.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/commons-dbutils-1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/commons-io-2.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/commons-lang-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/commons-logging.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/dom4j-2.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/ezmorph-1.0.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/jaxen-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/json-lib-2.3-jdk15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/jsonplugin-0.34.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/jsp-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/morph-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/morph-sandbox-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/poi-3.8-20120326.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/poi-excelant-3.8-20120326.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/poi-ooxml-3.8-20120326.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/poi-scratchpad-3.8-20120326.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/view/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/classes/china.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/classes/cn/java/web/servlet/BServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/classes/cn/java/web/servlet/CityServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/classes/cn/java/web/servlet/ProvinceServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/classes/conf/sql-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/FilelLoad.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/commons-dbutils-1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/commons-io-2.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/commons-lang-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/commons-logging.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/dom4j-2.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/ezmorph-1.0.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/jaxen-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/json-lib-2.3-jdk15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/jsonplugin-0.34.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/jsp-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/morph-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/morph-sandbox-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/poi-3.8-20120326.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/poi-excelant-3.8-20120326.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/poi-ooxml-3.8-20120326.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/poi-scratchpad-3.8-20120326.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/view/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/jsp-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/login1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/src/cn/java/web/servlet/ProvinceServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/awebt/web/WEB-INF/view/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/awebt/china.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/awebt/cn/java/web/servlet/AServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/awebt/cn/java/web/servlet/BServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/awebt/cn/java/web/servlet/CityServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/awebt/cn/java/web/servlet/ProvinceServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/awebt/conf/sql-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/yijie-reflect/com/avaweb_ajax/ajax_xml.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/yijie-reflect/com/avaweb_serlt/AServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/yijie-reflect/com/avaweb_serlt/serlet入门" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/yijie-reflect/conf/china.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/yijie-reflect/extjar/commons-io-2.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/yijie-reflect/extjar/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/yijie-reflect/image/pict/HttpServlet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/yijie-reflect/serres/apache-tomcat-10.0.21/lib/dom4j-2.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_ajax/ajaxUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_ajax/ajax_xml.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/china.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/serres/apache-tomcat-10.0.21/lib/dom4j-2.1.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/yijie_Tom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awebt/awebt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/awebt/awebt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awebt/src/cn/java/web/servlet/AServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/awebt/src/cn/java/web/servlet/AServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awebt/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/awebt/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awebt/web/ajaxo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/awebt/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awebt/web/ajaxt.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_ajax/ajaxt.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awebt/web/ajaxth.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/yijie-reflect/com/avaweb_ajax/ajaxth.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awebt/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/awebt/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebT_war_exploded/WEB-INF/classes/java/atweb/servlet/AServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebT_war_exploded/WEB-INF/classes/java/atweb/servlet/ajax.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebT_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebT_war_exploded/ajax.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebT_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/classes/cn/java/web/servlet/AServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/classes/cn/java/web/servlet/AServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebt/ajaxo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/yijie-reflect/com/avaweb_ajax/ajaxo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebt/ajaxt.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/yijie-reflect/com/avaweb_ajax/ajaxt.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebt/ajaxth.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_ajax/ajaxth.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebt/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/awebt/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebt_Web_exploded/WEB-INF/classes/cn/java/web/servlet/AServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebt_Web_exploded/WEB-INF/classes/java/atweb/servlet/AServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebt_Web_exploded/WEB-INF/classes/java/atweb/servlet/ValidateUsernameServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebt_Web_exploded/WEB-INF/classes/java/atweb/servlet/ajax.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebt_Web_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebt_Web_exploded/ajaxo.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebt_Web_exploded/ajaxt.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/awebt/web/WEB-INF/view/ajaxt.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebt_Web_exploded/ajaxth.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/awebt_Web_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jweb/WEB-INF/classes/cn/java/web/servlet/AServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jweb/WEB-INF/classes/java/atweb/servlet/AServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jweb/WEB-INF/classes/java/atweb/servlet/ValidateUsernameServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jweb/WEB-INF/classes/java/atweb/servlet/ajax.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jweb/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jweb/ajaxo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_ajax/ajaxo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jweb/ajaxt.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/awebt/WEB-INF/view/ajaxt.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jweb/ajaxth.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/jweb/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/awebT/cn/java/web/servlet/AServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/awebT/cn/java/web/servlet/ValidateUsernameServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/awebt/cn/java/web/servlet/ValidateUsernameServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/awebT/java/atweb/servlet/ajax.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/com/avaweb_ajax/AServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/yijie-reflect/com/avaweb_ajax/AServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/com/avaweb_ajax/ajax入门" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/yijie-reflect/com/avaweb_ajax/ajax入门" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/avaweb_ajax/AServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_ajax/AServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/avaweb_ajax/ajax入门" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_ajax/ajax入门" afterDir="false" />
-    </list>
+    <list default="true" id="1b022a78-9db9-4137-8426-74190da4f845" name="变更" comment="yijie-git" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -386,7 +252,7 @@
       <workItem from="1656039751616" duration="7751000" />
       <workItem from="1656047679903" duration="10431000" />
       <workItem from="1656058278241" duration="22033000" />
-      <workItem from="1656123576633" duration="37227000" />
+      <workItem from="1656123576633" duration="37782000" />
     </task>
     <task id="LOCAL-00001" summary="2022/6/23">
       <created>1655952050369</created>
@@ -486,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656081192091</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="yijie-git">
+      <created>1656163466735</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1656163466738</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
