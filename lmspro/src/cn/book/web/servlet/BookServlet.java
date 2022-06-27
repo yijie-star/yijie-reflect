@@ -12,11 +12,11 @@ import java.io.IOException;
 public class BookServlet extends BaseServlet {
     private BookDao bookDao = new BookDao();
 
-    public String findall(ServletRequest request, ServletResponse response) throws ServletException, IOException {
-        String findarr = request.getParameter("findall");
-        request.setAttribute("bookList",bookDao.findAll());
-        return "/view/show.jsp";
-    }
+//    public String findall(ServletRequest request, ServletResponse response) throws ServletException, IOException {
+//        String findarr = request.getParameter("findall");
+//        request.setAttribute("bookList",bookDao.findAll());
+//        return "/view/show.jsp";
+//    }
     public String findByCategory(ServletRequest request, ServletResponse response) throws ServletException, IOException {
         String value = request.getParameter("category");
         int category = Integer.parseInt(value);
@@ -29,12 +29,12 @@ public class BookServlet extends BaseServlet {
         request.setAttribute("param", param);
         return "f:/view/b.jsp" ;
     }
-    public String fun2(HttpServletRequest request, HttpServletResponse response)
+    public String findall(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        String findarr = request.getParameter("findall");
-        request.setAttribute("bookList",bookDao.findAll());
-        return "/view/show.jsp";
+        String param = request.getParameter("param");
+        request.setAttribute("param",param);
+        return "/view/b.jsp";
 
     }
 }

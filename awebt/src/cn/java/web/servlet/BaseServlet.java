@@ -6,16 +6,15 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.lang.reflect.Method;
+
 /**
  * BaseServlet[抽象类] 不需要在web.xml中添加路径
- * @功能 1. 
- * @author ZHAOYUQIANG
- *
  */
 public abstract class BaseServlet extends HttpServlet {
 	public void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-//		response.setContentType("text/html;charset=UTF-8");//处理响应编码
+		request.setCharacterEncoding("utf-8");
+		response.setContentType("text/html;charset=UTF-8");//处理响应编码
 		/*
 		 * 设置POST和GET请求编码
 		 */				
@@ -39,14 +38,14 @@ public abstract class BaseServlet extends HttpServlet {
 		/*
 		 * 3.1.  得到当前类的对象
 		 */
-		Class c = this.getClass();
+		Class<? extends BaseServlet> clazz = this.getClass();
 		/*
 		 * 3.2.  通过传递过来的方法名（addUse等）得到Method对象
 		 *    导包 ：java.lang.reflect.Method;
 		 */
 		Method method = null ;
 		try {
-			method = c.getMethod(methodName, 
+			method = clazz.getMethod(methodName,
 					HttpServletRequest.class,HttpServletResponse.class);
 		} catch (Exception e) {
 			throw new RuntimeException("您要调用的方法"+methodName+",它不存在");

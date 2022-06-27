@@ -91,4 +91,38 @@ FilterChain--:
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
+页面静态化：
+    给出一个过滤器，把servlet请求的资源所做的输出保存到html中，重定向到html页面
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+监听器：
+    是一个接口，内容由我们自行编写
+    它需要注册，例如注册在按钮中
+    在特殊事件发生时被调用
+--------------------------------
+javaweb中的监听器：
+    事件源：三大域：（ServletContext,HttpSession,servletrequest）
+        ServletContext: 存放启动时就要完成的代码
+            生死监听：servletContextListener，两个方法--出身时调用，死亡时调用
+            属性监听：srvletContextAttributeListener，三个方法---添加属性，替换属性，移除属性
+        HttpSession：
+            生死监听：HttpSessionListener，两个方法--出身时调用，死亡时调用
+            属性监听：HttpSessionAttributeListener，三个方法---添加属性，替换属性，移除属性
+        servletrequest：
+            生死监听：servletrequestListener，两个方法--出身时调用，死亡时调用
+            属性监听：servletrequestAttributeListener，三个方法---添加属性，替换属性，移除属性
+
+Javaweb中完成编写监听器：
+    写一个监听器的类：要求实现某个监听器接口
+    注册，是在web.xml中配置：
+         <listener>
+                <listener-class>监听器类路径</listener-class>
+            </listener>
+
+
+
+
+
+
+
 

@@ -1,0 +1,108 @@
+1、作用：
+    servlet：
+        缺点：不适合设置html响应体，需要大量的response.getwriter().print("html")
+        优点：动态资源，可以编程
+    html：
+        缺点：html是静态页面，不能包含动态信息
+        优点：不用为输出html标签而发愁
+    jsp：
+        缺点：在原有html的基础上添加java脚本，构成jsp页面
+2、组成：
+    jsp = html + java脚本 + jsp标签（指令）
+3、原理：
+
+
+cookie：
+    什么是 Cookie？
+    Cookie 是一些数据, 存储于你电脑上的文本文件中。
+
+    当 web 服务器向浏览器发送 web 页面时，在连接关闭后，服务端不会记录用户的信息。
+
+    Cookie 的作用就是用于解决 "如何记录客户端的用户信息":
+
+    当用户访问 web 页面时，他的名字可以记录在 cookie 中。
+    在用户下一次访问该页面时，可以在 cookie 中读取用户访问记录。
+
+使用 JavaScript 创建Cookie
+JavaScript 可以使用 document.cookie 属性来创建 、读取、及删除 cookie。
+
+JavaScript 中，创建 cookie 如下所示：
+
+document.cookie="username=John Doe";
+您还可以为 cookie 添加一个过期时间（以 UTC 或 GMT 时间）。默认情况下，cookie 在浏览器关闭时删除：
+
+document.cookie="username=John Doe; expires=Thu, 18 Dec 2043 12:00:00 GMT";
+您可以使用 path 参数告诉浏览器 cookie 的路径。默认情况下，cookie 属于当前页面。
+
+document.cookie="username=John Doe; expires=Thu, 18 Dec 2043 12:00:00 GMT; path=/";
+
+使用 JavaScript 读取 Cookie
+在 JavaScript 中, 可以使用以下代码来读取 cookie：
+
+var x = document.cookie;
+
+Note	document.cookie 将以字符串的方式返回所有的 cookie，类型格式： cookie1=value; cookie2=value; cookie3=value;
+
+使用 JavaScript 修改 Cookie
+在 JavaScript 中，修改 cookie 类似于创建 cookie，如下所示：
+
+document.cookie="username=John Smith; expires=Thu, 18 Dec 2043 12:00:00 GMT; path=/";
+旧的 cookie 将被覆盖。
+
+使用 JavaScript 删除 Cookie
+删除 cookie 非常简单。您只需要设置 expires 参数为以前的时间即可，如下所示，设置为 Thu, 01 Jan 1970 00:00:00 GMT:
+
+document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+注意，当您删除时不必指定 cookie 的值。
+
+Cookie 字符串
+document.cookie 属性看起来像一个普通的文本字符串，其实它不是。
+
+即使您在 document.cookie 中写入一个完整的 cookie 字符串, 当您重新读取该 cookie 信息时，cookie 信息是以名/值对的形式展示的。
+
+如果您设置了新的 cookie，旧的 cookie 不会被覆盖。 新 cookie 将添加到 document.cookie 中，所以如果您重新读取document.cookie，您将获得如下所示的数据：
+
+cookie1=value; cookie2=value;
+
+显示所有 Cookie  创建 Cookie 1  创建 Cookie 2 删除 Cookie 1  删除 Cookie 2
+
+如果您需要查找一个指定 cookie 值，您必须创建一个JavaScript 函数在 cookie 字符串中查找 cookie 值。
+
+JavaScript Cookie 实例
+在以下实例中，我们将创建 cookie 来存储访问者名称。
+
+首先，访问者访问 web 页面, 他将被要求填写自己的名字。该名字会存储在 cookie 中。
+
+访问者下一次访问页面时，他会看到一个欢迎的消息。
+
+在这个实例中我们会创建 3 个 JavaScript 函数:
+
+设置 cookie 值的函数
+获取 cookie 值的函数
+检测 cookie 值的函数
+----------------------------------------------------
+HttpSession:
+    底层依赖cookie，或者URL重写
+    作用：
+        会话范围：某个用户首次访问浏览器，到关闭浏览器
+        会话：发出连贯性请求
+
+案例一：
+    演示session中会话的多次请求中共享数据
+        AServlet：向session域中保存数据
+        BServlet：从session中获取数据
+            第一个请求：访问AServlet
+            第二次请求：BServlet
+
+案例二：登录验证
+
+一次性图形验证码：
+
+
+
+
+
+
+
+
+
