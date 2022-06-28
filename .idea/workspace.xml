@@ -12,53 +12,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b022a78-9db9-4137-8426-74190da4f845" name="变更" comment="yijie-git">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/bweb.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/bwblib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bweb/bweb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bweb/src/cn/iutils/CommonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bweb/src/cn/iutils/DmicCaptUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bweb/src/cn/java/servlet/CaptchaServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bweb/src/cn/java/servlet/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bweb/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bweb/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bweb/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bweb/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bweb/web/log/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bweb/web/log/susso.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bweb/web/log/susst.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bweb/web/session/sessiono.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bweb/web/session/sessiont.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lmspro/src/cn/book/filter/StaticFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lmspro/src/cn/book/filter/StaticResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/iutils/BeanUtils/BeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/iutils/CommonUtils/CommonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/iutils/DynamicGraphUtils/DmicCaptUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/iutils/FactoryUtils/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/iutils/ServletUtils/BaseServletUtils_one.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/iutils/ServletUtils/BaseServletUtils_two.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/iutils/StringUtils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_filter/monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_jsp/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_jsp/jsp入门" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awebt/src/cn/java/web/servlet/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/awebt/src/cn/java/web/servlet/BaseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lmspro/src/cn/book/web/servlet/BookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/lmspro/src/cn/book/web/servlet/BookServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lmspro/web/WEB-INF/calsses/cn/book/web/servlet/BookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/lmspro/web/WEB-INF/calsses/cn/book/web/servlet/BookServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lmspro/web/WEB-INF/calsses/cn/book/web/servlet/TestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/lmspro/web/WEB-INF/calsses/cn/book/web/servlet/TestServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lmspro/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lmspro/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lmspro/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/lmspro/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lmspro/web/view/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/lmspro/web/view/show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lmspro/WEB-INF/classes/cn/book/web/servlet/BookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lmspro/WEB-INF/classes/cn/book/web/servlet/BookServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lmspro/WEB-INF/classes/cn/book/web/servlet/TestServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lmspro/WEB-INF/classes/cn/book/web/servlet/TestServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lmspro/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lmspro/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/com/avaweb_ajax/AServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/yijie-reflect/com/avaweb_ajax/AServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/com/avaweb_ajax/ajax入门" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/yijie-reflect/com/avaweb_ajax/ajax入门" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/com/avaweb_serlt/AServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/yijie-reflect/com/avaweb_serlt/AServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/avaweb_filter/filter" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avaweb_filter/filter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yijie-reflect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yijie-reflect.iml" afterDir="false" />
-    </list>
+    <list default="true" id="1b022a78-9db9-4137-8426-74190da4f845" name="变更" comment="yijie-git" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +97,7 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.fileTypes"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -355,7 +309,7 @@
       <workItem from="1656123576633" duration="37782000" />
       <workItem from="1656206580503" duration="35266000" />
       <workItem from="1656244586300" duration="6024000" />
-      <workItem from="1656295549495" duration="31234000" />
+      <workItem from="1656295549495" duration="32284000" />
     </task>
     <task id="LOCAL-00001" summary="2022/6/23">
       <created>1655952050369</created>
@@ -483,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656295562807</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="yijie-git">
+      <created>1656336605959</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1656336605959</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

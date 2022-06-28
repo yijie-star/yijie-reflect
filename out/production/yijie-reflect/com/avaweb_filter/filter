@@ -1,0 +1,128 @@
+过滤器：
+    javaweb三大组件：
+        Servlet,Listener(2个监听器不需要配置),filter
+
+
+    会在一组资源的前面执行（jsp,servlet,css,.html）：
+    它可以让请求得到目标资源，也可以终止请求
+如何编写：
+    写一个类实现filter接口
+    在web.zml中进行配置
+
+FilterConfig---:
+    获取初始化参数 ：
+    获取过滤器名称：
+    获取application
+
+
+FilterChain--:
+    FilterChain(request,response): 放行
+
+多个过滤器：
+    FilterChain#FilterChain方法：
+        执行目标资源，或是执行下一个过滤器：如果没有下一个过滤器那么执行的是目标资源，反之执行过滤器
+    执行顺序：
+        按<filter-mapping>中的配置顺序
+    应用场景：
+        执行目标资源之前做预处理：例如设置编码
+        通过条件判断是否放行，例如校验用户是否已登录，IP是否已被禁用
+        做一些后续的特殊处理工作
+四种拦截方式：
+    请求：DISPATCHER
+    转发：FORWARD
+    包含：INCLUDE
+    错误：ERROR
+在<filter-mapping>中配置：如果不写，默认拦截请求
+    <dispatcher>四种方式</dispatcher>
+分析IP统计网站的访问次数：放在过滤器中--服务器开启创建ServletContextListener
+    Map<String,Integer>: 装统计的数据
+        需要在filter中用来保存数据
+        在页面中使用，打印数据
+        Map保存到ServletContext中
+
+粗粒度权限控制：
+    RBAC-基础的权限控制
+    给出三个页面：index.jsp（谁都可以访问，无限制）;user.jsp（只有登录用户才能访问）;admin.jsp（管理员才能访问）
+处理全栈编码问题：
+    EncodingFilter:配置
+    <filter>
+        <display-name>EncodingFilter</display-name>
+        <filter-name>EncodingFilter</filter-name>
+        <filter-class>cn.java.web.servlet.EncodingFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>EncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+页面静态化：
+    1、写一个图书管理小项目
+    jsp: link.jsp
+    链接页面，四个超链接
+        查询所有
+        查询SE分类
+        查看EE分类
+        查看框架分类
+    show.jsp
+        显示查询结构
+    Servlet：
+        BookServlet
+           findALL()---查看所有图书
+           findByCategory---按照分类进行查询
+    BookService
+
+    BookDao
+        List<Book> findALL()---查看所有图书
+        List<Book> findByCategory---按照分类进行查询
+    domain: book类
+2、什么是页面静态化
+    首次访问去数据库获取数据，把数据保存到一个html中，
+    二次访问不用去数据库获取，直接显示
+--------------------------------------------
+<h1>链接页面</h1>
+<a href="<c:url value='/BookServlet?method=findAll'>">查询所有</a><br>
+    <a href="<c:url value='/BookServlet?method=findByCategory&category=1'>">查询SE</a><br>
+        <a href="<c:url value='/BookServlet?method=findByCategory&category=2'>">查询EE</a><br>
+            <a href="<c:url value='/BookServlet?method=findByCategory&category=3'>">查询Framework</a><br>
+
+ <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+页面静态化：
+    给出一个过滤器，把servlet请求的资源所做的输出保存到html中，重定向到html页面
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+监听器：
+    是一个接口，内容由我们自行编写
+    它需要注册，例如注册在按钮中
+    在特殊事件发生时被调用
+--------------------------------
+javaweb中的监听器：
+    事件源：三大域：（ServletContext,HttpSession,servletrequest）
+        ServletContext: 存放启动时就要完成的代码
+            生死监听：servletContextListener，两个方法--出身时调用，死亡时调用
+            属性监听：srvletContextAttributeListener，三个方法---添加属性，替换属性，移除属性
+        HttpSession：
+            生死监听：HttpSessionListener，两个方法--出身时调用，死亡时调用
+            属性监听：HttpSessionAttributeListener，三个方法---添加属性，替换属性，移除属性
+        servletrequest：
+            生死监听：servletrequestListener，两个方法--出身时调用，死亡时调用
+            属性监听：servletrequestAttributeListener，三个方法---添加属性，替换属性，移除属性
+
+Javaweb中完成编写监听器：
+    写一个监听器的类：要求实现某个监听器接口
+    注册，是在web.xml中配置：
+         <listener>
+                <listener-class>监听器类路径</listener-class>
+            </listener>
+
+
+
+
+
+
+
+
