@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CRMlib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/CRMitems/web/WEB-INF/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

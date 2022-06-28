@@ -1,0 +1,65 @@
+jsp指令：可以有0-n个指令
+    1、page：
+        指令格式：<%@指令名 attr1="" attr2=""%>
+    2、include：
+    3、taglib：导入标签库
+内置对象：
+    out：jsp的输出流，用来向客户端响应
+    config
+    page：当前jsp对象
+    pageContext：一个顶九个---jsp的最后一个域==一个jsp页面，，当前页面使用的标签之间共享数据
+    request
+    response
+    exception
+    application
+    session
+javabean:
+    必须要为成员提供get/set方法（两者只提供一个也是可以）
+      必须要有默认的构造方法（无参构造）
+    一般具有get/set方法的成员变量称为属性
+el表达式：
+    jsp内置语言
+    EL 全名为Expression Language。EL主要作用：
+    　　1、获取数据
+    　　　　EL表达式主要用于替换JSP页面中的脚本表达式，以从各种类型的web域 中检索java对象、获取数据。(某个web域 中的对象，访问javabean的属性、访问list集合、访问map集合、访问数组)
+    　　2、执行运算
+    　　　　利用EL表达式可以在JSP页面中执行一些基本的关系运算、逻辑运算和算术运算，以在JSP页面中完成一些简单的逻辑运算。${user==null}
+    　　3、获取web开发常用对象
+    　　　　EL 表达式定义了一些隐式对象，利用这些隐式对象，web开发人员可以很轻松获得对web常用对象的引用，从而获得这些对象中的数据。
+    　　4、调用Java方法
+    　　　　EL表达式允许用户开发自定义EL函数，以在JSP页面中通过EL表达式调用Java类的方法。
+语法：
+    EL表达式获取数据语法："${标识符}"
+
+内置对象：10个map类型，最后一个pageContext
+    pageScope
+    requestScope
+    sessionScope
+    applicationScope
+    param
+    paramValues
+    header
+    headerValues
+    initParam
+    cookie
+    pageContext
+jstl:
+    el表达式的扩展，是标签语言
+    四大标签库：
+        core：核心标签库--c
+            out和set
+            remove
+            URL
+            if
+            choose
+            foreach
+        fmt：格式化标签库
+        sql：数据库标签库
+        xml：xml标签库
+
+自定义标签：
+    标签处理类
+    tid文件
+    页面中指定<%taglib%>
+
+

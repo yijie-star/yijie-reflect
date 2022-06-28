@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CRMitems/CRMitems.iml" filepath="$PROJECT_DIR$/CRMitems/CRMitems.iml" />
       <module fileurl="file://$PROJECT_DIR$/awebt/awebt.iml" filepath="$PROJECT_DIR$/awebt/awebt.iml" />
       <module fileurl="file://$PROJECT_DIR$/bweb/bweb.iml" filepath="$PROJECT_DIR$/bweb/bweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/lmspro/lmspro.iml" filepath="$PROJECT_DIR$/lmspro/lmspro.iml" />
