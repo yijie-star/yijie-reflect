@@ -75,7 +75,10 @@ public class RegistServlet extends HttpServlet {
          */
         try {
             userService.regist(form);
-            resp.getWriter().print("<h2>注册成功！</h2><a href='" + req.getContextPath() + "/user/login.jsp" + "'>登录</a>");
+            String sinIn = "<h2>注册成功！</h2><a href='" + req.getContextPath() + "/user/login.jsp" + "'><h3>登录</h3></a>";
+            //resp.getWriter().print("<h2>注册成功！</h2><a href='" + req.getContextPath() + "/user/login.jsp" + "'>登录</a>");
+            req.setAttribute("sinIn",sinIn);
+            req.getRequestDispatcher("/user/regist.jsp").forward(req,resp);
         } catch (UserException e) {
             //获取异常信息，保存到request域中
             req.setAttribute("msg",e.getMessage());

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Tomcat配置JNDI
+    name：指定资源的名称
+    factory：资源由谁来负责创建
+    type：资源的类型
+    其他的东西是资源的参数（可配）
+    -->
+<Context>
+    <Resource name="jdbc/dataSource"
+              factory="org.apache.naming.factory.BeanFactory"
+              type="com.mchange.v2.c3p0.ComboPooledDataSource"
+              driverClassName="com.mysql.jdbc.Driver"
+              jdbcUrl="jdbc:mysql://localhost:3306/数据库名"
+              username="root"
+              password="密码"></Resource>
+</Context>
+<!--<Context>-->
+<!--    <Resource name="ic3p0"-->
+<!--              type="com.mchange.v2.c3p0.ComboPooledDataSource"-->
+<!--              factory="org.apache.naming.factory.BeanFactory"-->
+<!--              driverClassName="com.mysql.jdbc.Driver"-->
+<!--              jdbcUrl="jdbc:mysql://localhost:3306/数据库名"-->
+<!--              username="root"-->
+<!--              password="密码"></Resource>-->
+<!--</Context>-->
+<!--获取资源：
+    Context iniCtx = new InitialContext();
+    Context encCtx = (Context) iniCtx.lookup("java:comp/env");
+    MyBean bean = (MyBean) envCtx.lookup("jdbc/dataSource");
+    writer.println("foo = " + bean.getFoo() + " bar = " + bean.getBar());
+    -->
+<!--在tomcat的conf文件夹下的context.xml配置文件中加入：-->
+<!--    <Resource name="jdbc/dataSource"-->
+<!--              auth="Container"-->
+<!--              type="javax.sql.DataSource"-->
+<!--              driverClassName="com.mysql.jdbc.Driver"-->
+<!--              url="jdbc:mysql://localhost:3306/数据库名"-->
+<!--              username="root"-->
+<!--              password="123456"-->
+<!--              maxActive="20"-->
+<!--              maxIdle="10"-->
+<!--              maxWait="10000"/>-->
+
+<!--在项目的web.xml中加入资源引用：-->
+<!--    <resource-ref>-->
+<!--        <description>JNDIDataSource</description>-->
+<!--        <res-ref-name>jndi/mybatis</res-ref-name>-->
+<!--        <res-type>javax.sql.DataSource</res-type>-->
+<!--        <res-auth>Container</res-auth>-->
+<!--    </resource-ref>-->

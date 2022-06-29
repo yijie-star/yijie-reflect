@@ -73,7 +73,7 @@ class login {
 
          */
         Connection connection = null;
-        connection = JdbcUtils.getConnection();
+        connection = JdbcUtils.getConnection("src/dbconfig.properties");
         String sql = "select * from t_user where username = ? and password = ? ";
         PreparedStatement preparedStatement = connection.prepareStatement(sql);
         preparedStatement.setString(1,username);

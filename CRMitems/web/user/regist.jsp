@@ -44,6 +44,7 @@
                 <p style="color: red">${errors.username }</p>
                 <p style="color: red">${errors.password }</p>
                 <p style="color: red">${errors.securityCode }</p>
+                <p style="color: red">${sinIn }</p>
             </div>
         </form>
     </div>
