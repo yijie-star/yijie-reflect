@@ -1,9 +1,10 @@
 package cn.cempro.user.web.servlet;
 
-import cn.Yjike.iutils.commons.CommonUtils;
+
 import cn.cempro.user.domain.User;
 import cn.cempro.user.service.UserException;
 import cn.cempro.user.service.UserService;
+import cn.itike.iutils.commons.CommonUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -63,7 +64,7 @@ public class LoginServlet extends HttpServlet {
         try {
             User user = userService.login(form);
             req.getSession().setAttribute("sessionUser",user);
-            resp.sendRedirect(req.getContextPath() + "/user/user.jsp");
+            resp.sendRedirect(req.getContextPath() + "/frame.jsp");
         }catch (UserException e){
             req.setAttribute("msg",e.getMessage());
             req.setAttribute("user",form);

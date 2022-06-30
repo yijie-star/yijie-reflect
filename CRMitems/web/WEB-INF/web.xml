@@ -3,6 +3,24 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+
+    <!--
+  JNDI配置的资源引用：
+  • res-ref-name：表示引用资源的名称
+  • res-type：此资源对应的类型为javax.sql.DataSource
+  • res-auth：容器授权管理
+   -->
+
+
+    <!--MySQL数据库JNDI数据源引用 -->
+    <resource-ref>
+        <description>DB Connection</description>
+        <res-ref-name>jdbc/mysqlDataSource</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
+
+
     <servlet-mapping>
         <servlet-name>default</servlet-name>
         <url-pattern>*.jpg</url-pattern>
@@ -51,10 +69,27 @@
         <servlet-name>SecurityCode</servlet-name>
         <url-pattern>/SecurityCode</url-pattern>
     </servlet-mapping>
-        <resource-ref>
-            <description>JNDIDataSource</description>
-            <res-ref-name>jdbc/dataSource</res-ref-name>
-            <res-type>javax.sql.DataSource</res-type>
-            <res-auth>Container</res-auth>
-        </resource-ref>
+    <servlet>
+        <servlet-name>CustomerServlet</servlet-name>
+        <servlet-class>cn.cempro.user.web.servlet.CustomerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CustomerServlet</servlet-name>
+        <url-pattern>/CustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>C3p0Demo</servlet-name>
+        <servlet-class>cn.cempro.user.web.servlet.C3p0Demo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>C3p0Demo</servlet-name>
+        <url-pattern>/C3p0Demo</url-pattern>
+    </servlet-mapping>
+    <resource-ref>
+        <description>jdbc/mysql</description>
+        <res-ref-name>jdbc/mysql</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
+
 </web-app>

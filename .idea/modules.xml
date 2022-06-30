@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/bweb/bweb.iml" filepath="$PROJECT_DIR$/bweb/bweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/lmspro/lmspro.iml" filepath="$PROJECT_DIR$/lmspro/lmspro.iml" />
       <module fileurl="file://$PROJECT_DIR$/yijie-reflect.iml" filepath="$PROJECT_DIR$/yijie-reflect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yijieutils/yijieutils.iml" filepath="$PROJECT_DIR$/yijieutils/yijieutils.iml" />
     </modules>
   </component>
 </project>

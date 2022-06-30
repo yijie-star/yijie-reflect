@@ -12,7 +12,7 @@
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
-
+<%--<jsp:forward page="/frame.jsp"></jsp:forward>--%>
 <html>
   <head>
     <base href="<%=basePath%>">

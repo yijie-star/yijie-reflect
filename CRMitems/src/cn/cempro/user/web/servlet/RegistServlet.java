@@ -1,10 +1,10 @@
 package cn.cempro.user.web.servlet;
 
 
-import cn.Yjike.iutils.commons.CommonUtils;
 import cn.cempro.user.domain.User;
 import cn.cempro.user.service.UserException;
 import cn.cempro.user.service.UserService;
+import cn.itike.iutils.commons.CommonUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

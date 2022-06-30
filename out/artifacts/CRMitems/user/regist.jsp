@@ -30,7 +30,6 @@
     </script>
 </head>
 <body>
-${jdnl}
     <div style="text-align: left;background: white;width: 178px;position: fixed;top: 20%;left: 39%">
         <form action="<c:url value="/RegistServlet"></c:url> " method="post">
             用户名：<input type="text" name="username" value="${user.username }"><br><br>

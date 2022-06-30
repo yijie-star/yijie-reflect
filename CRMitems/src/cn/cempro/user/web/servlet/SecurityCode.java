@@ -1,6 +1,7 @@
 package cn.cempro.user.web.servlet;
 
-import cn.Yjike.iutils.verificationcode.DmicCaptUtils;
+
+import cn.itike.iutils.securitycode.DmicCaptUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
