@@ -12,142 +12,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b022a78-9db9-4137-8426-74190da4f845" name="变更" comment="yijie-git">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f1d78707-74a4-4ae4-8668-af7debda6699.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f1d78707-74a4-4ae4-8668-af7debda6699/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f1d78707-74a4-4ae4-8668-af7debda6699/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f1d78707-74a4-4ae4-8668-af7debda6699/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f1d78707-74a4-4ae4-8668-af7debda6699/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f1d78707-74a4-4ae4-8668-af7debda6699/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/src/cn/cempro/user/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/src/cn/cempro/user/web/servlet/C3p0Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/src/cn/cempro/user/web/servlet/CustomerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/web/WEB-INF/classes/cn/cempro/user/service/CustomerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/web/WEB-INF/classes/cn/cempro/user/web/servlet/C3p0Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/web/WEB-INF/classes/cn/cempro/user/web/servlet/CustomerServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/web/WEB-INF/lib/commons-collections4-4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/web/WEB-INF/lib/commons-dbcp2-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/web/WEB-INF/lib/commons-pool2-2.11.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/web/WEB-INF/lib/javax-itike-tools.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/web/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/web/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/web/frame.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/web/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/web/msg.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/web/query.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRMitems/web/top.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bweb/web/WEB-INF/lib/javax-itjike-tools.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lmspro/web/WEB-INF/calsses/cn/book/filter/StaticFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lmspro/web/WEB-INF/calsses/cn/book/filter/StaticResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/cn/cempro/user/service/CustomerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/cn/cempro/user/web/servlet/C3p0Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/cn/cempro/user/web/servlet/CustomerServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/commons-collections-3.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/commons-collections4-4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/commons-dbcp2-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/commons-pool2-2.11.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/javax-itike-tools.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/mysql-connector-java-8.0.29.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/lib/commons-collections-3.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/lib/commons-collections4-4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/lib/commons-dbcp2-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/lib/commons-pool2-2.11.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/lib/javax-itike-tools.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/frame.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/msg.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/query.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/top.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/bweb/WEB-INF/lib/itjike-tools.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/lmspro/WEB-INF/classes/cn/book/filter/StaticFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/lmspro/WEB-INF/classes/cn/book/filter/StaticResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/extjar/jackson-databind-2.13.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yijieutils/src/classes/cn/itike/iutils/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yijieutils/src/classes/cn/itike/iutils/commons/PageBeanUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yijieutils/src/cn/itike/iutils/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yijieutils/src/cn/itike/iutils/ademo/QR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yijieutils/src/cn/itike/iutils/commons/CommonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yijieutils/src/cn/itike/iutils/commons/CustomBeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yijieutils/src/cn/itike/iutils/commons/PageBeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yijieutils/src/cn/itike/iutils/dom4j/Dom4jUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yijieutils/src/cn/itike/iutils/enconding/EncodingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yijieutils/src/cn/itike/iutils/enconding/EncodingRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yijieutils/src/cn/itike/iutils/jdbc/JdbcPoolUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yijieutils/src/cn/itike/iutils/jdbc/JdbcUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yijieutils/src/cn/itike/iutils/jdbc/TxQueryRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yijieutils/src/cn/itike/iutils/rests/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yijieutils/src/cn/itike/iutils/rests/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yijieutils/yijieutils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMitems/CRMitems.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CRMitems/CRMitems.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMitems/src/cn/cempro/user/dao/CustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRMitems/src/cn/cempro/user/dao/CustomerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMitems/src/cn/cempro/user/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRMitems/src/cn/cempro/user/domain/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMitems/src/cn/cempro/user/web/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRMitems/src/cn/cempro/user/web/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMitems/src/cn/cempro/user/web/servlet/RegistServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRMitems/src/cn/cempro/user/web/servlet/RegistServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMitems/src/cn/cempro/user/web/servlet/SecurityCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRMitems/src/cn/cempro/user/web/servlet/SecurityCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMitems/web/WEB-INF/classes/cn/cempro/user/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRMitems/web/WEB-INF/classes/cn/cempro/user/dao/CustomerDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMitems/web/WEB-INF/classes/cn/cempro/user/domain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRMitems/web/WEB-INF/classes/cn/cempro/user/domain/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMitems/web/WEB-INF/classes/cn/cempro/user/web/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRMitems/web/WEB-INF/classes/cn/cempro/user/web/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMitems/web/WEB-INF/classes/cn/cempro/user/web/servlet/RegistServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRMitems/web/WEB-INF/classes/cn/cempro/user/web/servlet/RegistServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMitems/web/WEB-INF/classes/cn/cempro/user/web/servlet/SecurityCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/CRMitems/web/WEB-INF/classes/cn/cempro/user/web/servlet/SecurityCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMitems/web/WEB-INF/lib/yjike-itools.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMitems/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CRMitems/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMitems/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/CRMitems/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRMitems/web/user/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/CRMitems/web/user/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bweb/src/cn/Yjike/iutils/CommonUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bweb/src/cn/Yjike/iutils/DmicCaptUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/yijieutils/src/cn/itike/iutils/securitycode/DmicCaptUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bweb/src/cn/java/servlet/CaptchaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/bweb/src/cn/java/servlet/CaptchaServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bweb/web/WEB-INF/classes/cn/iutils/CommonUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bweb/web/WEB-INF/classes/cn/iutils/DmicCaptUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bweb/web/WEB-INF/classes/cn/java/servlet/CaptchaServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/bweb/web/WEB-INF/classes/cn/java/servlet/CaptchaServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lmspro/src/cn/book/sql/JdbcUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lmspro/web/WEB-INF/calsses/cn/book/sql/JdbcUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lmspro/web/WEB-INF/calsses/dbconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lmspro/web/WEB-INF/calsses/dbconfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/cn/cempro/user/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/cn/cempro/user/dao/CustomerDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/cn/cempro/user/domain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/cn/cempro/user/domain/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/cn/cempro/user/web/servlet/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/cn/cempro/user/web/servlet/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/cn/cempro/user/web/servlet/RegistServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/cn/cempro/user/web/servlet/RegistServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/cn/cempro/user/web/servlet/SecurityCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/cn/cempro/user/web/servlet/SecurityCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/classes/yjike-itools.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/lib/yjike-itools.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CRMitems/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CRMitems/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/user/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CRMitems/user/user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CRMitems/user/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bweb/WEB-INF/classes/cn/iutils/CommonUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bweb/WEB-INF/classes/cn/iutils/DmicCaptUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/bweb/WEB-INF/classes/cn/java/servlet/CaptchaServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/bweb/WEB-INF/classes/cn/java/servlet/CaptchaServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lmspro/WEB-INF/classes/cn/book/sql/JdbcUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lmspro/WEB-INF/classes/dbconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lmspro/WEB-INF/classes/dbconfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lmspro/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lmspro/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/lmspro/view/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lmspro/view/show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/cn/itike/iutils/ademo/QR.class" beforeDir="false" afterPath="$PROJECT_DIR$/yijieutils/src/classes/cn/itike/iutils/ademo/QR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/cn/itike/iutils/ademo/RsHander.class" beforeDir="false" afterPath="$PROJECT_DIR$/yijieutils/src/classes/cn/itike/iutils/ademo/RsHander.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/cn/itike/iutils/commons/CommonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/yijieutils/src/classes/cn/itike/iutils/commons/CommonUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/cn/itike/iutils/commons/CustomBeanUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/yijieutils/src/classes/cn/itike/iutils/commons/CustomBeanUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/cn/itike/iutils/dom4j/Dom4jUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/yijieutils/src/classes/cn/itike/iutils/dom4j/Dom4jUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/cn/itike/iutils/enconding/EncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/yijieutils/src/classes/cn/itike/iutils/enconding/EncodingFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/cn/itike/iutils/enconding/EncodingRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/yijieutils/src/classes/cn/itike/iutils/enconding/EncodingRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/cn/itike/iutils/jdbc/JdbcPoolUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/yijieutils/src/classes/cn/itike/iutils/jdbc/JdbcPoolUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/cn/itike/iutils/jdbc/JdbcUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/yijieutils/src/classes/cn/itike/iutils/jdbc/JdbcUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/cn/itike/iutils/jdbc/TxQueryRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/yijieutils/src/classes/cn/itike/iutils/jdbc/TxQueryRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/cn/itike/iutils/rests/Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/yijieutils/src/classes/cn/itike/iutils/rests/Factory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/cn/itike/iutils/rests/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/yijieutils/src/classes/cn/itike/iutils/rests/StringUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/cn/itike/iutils/securitycode/DmicCaptUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/yijieutils/src/classes/cn/itike/iutils/securitycode/DmicCaptUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/cn/itike/iutils/servlet/jakartaBaseServletUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/cn/itike/iutils/servlet/javaxBaseServletUtilsTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/yijieutils/src/classes/cn/itike/iutils/servlet/BaseServletUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/yijie-reflect/cn/itike/iutils/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itike/iutils/ademo/QR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itike/iutils/ademo/QR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itike/iutils/servlet/jakartaBaseServletUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itike/iutils/servlet/BaseServletUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itike/iutils/servlet/javaxBaseServletUtilsTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/yijieutils/src/cn/itike/iutils/servlet/BaseServletUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/jndlTomcat.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="1b022a78-9db9-4137-8426-74190da4f845" name="变更" comment="yijie-git" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -499,7 +364,7 @@
       <workItem from="1656379290606" duration="4621000" />
       <workItem from="1656388440131" duration="36110000" />
       <workItem from="1656478315945" duration="25743000" />
-      <workItem from="1656553554257" duration="38037000" />
+      <workItem from="1656553554257" duration="38149000" />
     </task>
     <task id="LOCAL-00001" summary="2022/6/23">
       <created>1655952050369</created>
@@ -655,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656510298977</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="yijie-git">
+      <created>1656598829117</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1656598829120</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
