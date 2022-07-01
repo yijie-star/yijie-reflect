@@ -17,7 +17,7 @@ public class C3p0Demo extends HttpServlet {
             //此类是执行命名操作的初始上下文。用于解析该 URL
             Context ctx = new InitialContext();
             System.out.println("ok1");
-            DataSource ds = (DataSource)ctx.lookup("java:comp/env/jdbc/mysql");
+            DataSource ds = (DataSource)ctx.lookup("java:comp/env/jdbc/mysqlDS");
             System.out.println("ok2");
 
 

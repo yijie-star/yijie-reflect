@@ -3,6 +3,8 @@ package cn.cempro.user.service;
 import cn.cempro.user.dao.UserDao;
 import cn.cempro.user.domain.User;
 
+import java.sql.SQLException;
+
 /**
  * User的业务逻辑层
  */
@@ -14,7 +16,7 @@ public class UserService {
      * @param user
      * @throws UserException
      */
-    public void regist(User user) throws UserException{
+    public void regist(User user) throws UserException, SQLException {
         /**
          * 1、使用用户名去查询，如果返回null，完成添加
          * 2、若不是null，抛出异常
@@ -23,7 +25,7 @@ public class UserService {
         if (_user != null){
             throw new UserException("用户名" + user.getUsername() + "已被注册！");
         }
-        userDao.addUser(user);
+        userDao.add(user);
     }
 
     /**

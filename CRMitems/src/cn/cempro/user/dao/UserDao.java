@@ -1,17 +1,23 @@
 package cn.cempro.user.dao;
 
 import cn.cempro.user.domain.User;
+import cn.itike.iutils.dom4j.Dom4jUtils;
+import cn.itike.iutils.jdbc.TxQueryRunner;
+import org.apache.commons.dbutils.QueryRunner;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.OutputFormat;
 import org.dom4j.io.XMLWriter;
 
+import java.sql.SQLException;
+
 /**
  * 数据类
  */
 public class UserDao {
     private String path = "E:/users.xml";
+    private QueryRunner qr = new TxQueryRunner();
 
     /**
      * 按照用户名查询
@@ -40,7 +46,11 @@ public class UserDao {
             throw new RuntimeException(e);
         }
     }
-
+    public void add(User user) throws SQLException {
+        String sql = "insert into user values('',?,?)";
+        Object [] parms = {user.getUid(),user.getUsername(),user.getPassword()};
+        qr.update(sql,parms);
+    }
 
     /**
      * 添加用户

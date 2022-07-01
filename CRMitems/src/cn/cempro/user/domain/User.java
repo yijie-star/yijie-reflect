@@ -4,6 +4,7 @@ package cn.cempro.user.domain;
  * 实体类
  */
 public class User {
+    private int uid;
     private String username;
     private String password;
     private String securityCode;
@@ -49,5 +50,13 @@ public class User {
 
     public void setSecurityCode(String securityCode) {
         this.securityCode = securityCode;
+    }
+
+    public int getUid() {
+        return uid;
+    }
+
+    public void setUid(int uid) {
+        this.uid = uid;
     }
 }

@@ -24,49 +24,49 @@ public class TxQueryRunner extends QueryRunner {
          * 3、释放连接
          * 4、返回值
          */
-        Connection con = JdbcPoolUtils.getConnection();
+        Connection con = C3p0Utils.getConnection();
         int [] result = super.batch(con,sql,params);
-        JdbcPoolUtils.releaseConnection(con);
+        C3p0Utils.releaseConnection(con);
         return result;
     }
 
     @Override
     public <T> T query(String sql, ResultSetHandler<T> rsh, Object... params) throws SQLException {
-        Connection con = JdbcPoolUtils.getConnection();
+        Connection con = C3p0Utils.getConnection();
         T result = super.query(con,sql,params,rsh);
-        JdbcPoolUtils.releaseConnection(con);
+        C3p0Utils.releaseConnection(con);
         return result;
     }
 
     @Override
     public <T> T query(String sql, ResultSetHandler<T> rsh) throws SQLException {
-        Connection con = JdbcPoolUtils.getConnection();
+        Connection con = C3p0Utils.getConnection();
         T result = super.query(con,sql,rsh);
-        JdbcPoolUtils.releaseConnection(con);
+        C3p0Utils.releaseConnection(con);
         return result;
     }
 
     @Override
     public int update(String sql) throws SQLException {
-        Connection con = JdbcPoolUtils.getConnection();
+        Connection con = C3p0Utils.getConnection();
         int result = super.update(con,sql);
-        JdbcPoolUtils.releaseConnection(con);
+        C3p0Utils.releaseConnection(con);
         return result;
     }
 
     @Override
     public int update(String sql, Object param) throws SQLException {
-        Connection con = JdbcPoolUtils.getConnection();
+        Connection con = C3p0Utils.getConnection();
         int result = super.update(con,sql,param);
-        JdbcPoolUtils.releaseConnection(con);
+        C3p0Utils.releaseConnection(con);
         return result;
     }
 
     @Override
     public int update(String sql, Object... params) throws SQLException {
-        Connection con = JdbcPoolUtils.getConnection();
+        Connection con = C3p0Utils.getConnection();
         int result = super.update(con,sql,params);
-        JdbcPoolUtils.releaseConnection(con);
+        C3p0Utils.releaseConnection(con);
         return result;
     }
 

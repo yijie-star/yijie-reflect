@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -83,6 +84,8 @@ public class RegistServlet extends HttpServlet {
             //获取异常信息，保存到request域中
             req.setAttribute("msg",e.getMessage());
             req.getRequestDispatcher("/user/regist.jsp").forward(req,resp);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
         }
         /**
          * 校验验证码：

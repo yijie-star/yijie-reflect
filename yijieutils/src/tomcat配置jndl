@@ -1,0 +1,36 @@
+1、上下文配置---将资源声明添加到Context来配置 Tomcat 中的 JNDI 数据源。
+    各数据库的驱动程序复制粘贴到$CATALINA_HOME/lib，也就是Tomcat的lib目录下
+    MySQL数据源：
+    <Resource name="jdbc/自定义" auth="Container" type="javax.sql.DataSource"
+                   maxTotal="100" maxIdle="30" maxWaitMillis="10000"
+                   username="root" password="密码" driverClassName="com.mysql.jdbc.Driver"
+                   url="jdbc:mysql://localhost:3306/数据库名"/>
+    Oracle数据源：
+    <Resource name="jdbc/自定义" auth="Container"
+                  type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver"
+                  url="jdbc:oracle:thin:@127.0.0.1:1521:数据库名"
+                  username="scott" password="tiger" maxTotal="20" maxIdle="10"
+                  maxWaitMillis="-1"/>
+2、web.xml配置--WEB-INF/web.xml
+    MySQL数据库JNDI数据源引用：
+    <description>MySQL Test App</description>
+      <resource-ref>
+          <description>DB Connection</description>
+          <res-ref-name>jdbc/自定义</res-ref-name>
+          <res-type>javax.sql.DataSource</res-type>
+          <res-auth>Container</res-auth>
+      </resource-ref>
+    Oracle数据库JNDI数据源引用：
+    <resource-ref>
+     <description>Oracle Datasource example</description>
+     <res-ref-name>jdbc/自定义</res-ref-name>
+     <res-type>javax.sql.DataSource</res-type>
+     <res-auth>Container</res-auth>
+    </resource-ref>
+3、测试--创建servlet类进行测试
+    Context initContext = new InitialContext();
+    Context envContext  = (Context)initContext.lookup("java:/comp/env");
+    DataSource ds = (DataSource)envContext.lookup("jdbc/自定义");
+    Connection conn = ds.getConnection();
+注：以上自定义的部分必须保证完全相同。
+
